@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+        <title title='DC COMICS TIMELINE'>DC COMICS TIMELINE</title>
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/DCUniverse.svg/1056px-DCUniverse.svg.png" type="image/png">
+        <meta name="author" content="SIVA S A"/>
+        <meta name="description" content="The various timelines in various earths"/>
+       
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  header{
+                font-size: 55px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-style: normal;
+                text-align: center;
+                text-shadow: blue;
+                color: rgb(65, 141, 255); 
+                padding: 10px;
+                background-color: rgb(0, 0, 0);
+               }
+.dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(65, 141, 255)  ;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+top:20px;
+right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(31, 25, 25);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.966);
+  z-index: 1;
+  right:5px;
+}
+
+.dropdown-content a {
+  color: rgb(31, 111, 231);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(83, 80, 80);
+}
+            
+            .logo{
+                position: fixed;
+            top: 5px;
+            left: 5px;
+            }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.left {
+  left: 0;
+}
+
+
+.right {
+  left: 50%;
+}
+
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+
+.right::after {
+  left: -16px;
+}
+
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .timeline::after {
+  left: 31px;
+  }
+  
+
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+
+  .right {
+  left: 0%;
+  }
+}
+h4{
+  background-color: rgb(10, 10, 10);
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+h4:hover{
+  color: #000000;
+}
+</style>
+</head>
+<header id="1"><strong>DC COMICS</strong><a href="dccomics.html"><img class="logo"title="DC COMICS HOME" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/DC_Comics_logo.png/600px-DC_Comics_logo.png"alt="DC COMICS" style="width:90px;height:90px;"></a></header><br>
+<body >
+  <h3 style="color: white;text-align: center;font-size: 50px;">TIMELINE</h3><div class="dropdown">
+    <button class="dropbtn" style="font-size: 35px;"><b>MENU</b></button>
+    <div class="dropdown-content">
+    <a href="https://www.dccomics.com/" style="text-align: center;">OFFICIAL DC COMICS SITE</a>
+    <a href="https://www.dccomics.com/contact"style="text-align: center;">DC COMICS CONTACT</a>
+    <a href="index.html"style="text-align: center;">OWNER</a>
+    <a href="dccomics.html"style="text-align: center;">HOME</a>
+    </div>
+  </div>
+  
+<div w3-include-html="dccomics.html"></div> 
+
+<script>
+includeHTML();
+</script>
+
+<body>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>Wonder Woman</h2>
+      <p><img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/46/1510574781-wonder-woman-horrified-gal-gadot.jpg?crop=1xw:1xh;center,top&resize=768:*" alt="WONDER WOMEN" width="400px"height="200px">
+        <br>Wonder WomanPatty Jenkins' acclaimed Wonder Woman takes us back a full century to Princess Diana of Themyscira's first outing as the titular superhero. After meeting World War I spy Steve Trevor, she leaves her all-female paradise home forever to fight in the Great War against the god Ares.
+
+        Watch Wonder Woman on Amazon Prime
+        
+        When the film concludes, Wonder Woman has realised that she can't simply fight all the world's problems and goes underground, which explains why she wasn't around when Superman came on the scene.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Wonder Woman 1984</h2>
+      <p><img src="https://i.insider.com/5ded5c4e79d757035d26ce62?width=1100&format=jpeg&auto=webp"alt="WONDER WOMEN 1984" width="400px"height="200px";><br> We haven't seen Jenkins' Wonder Woman sequel yet (it's not out until June 2020), but the title pretty much gives the game away. Princess Diana will be back battling the villainous Cheetah against the backdrop of the Cold War.
+
+        Though from the first trailer, it doesn't seem like the tensions of the Cold War are going to have much to do with Wonder Woman 1984 at all. Instead it looks like the movie will lean on the comic's plot surrounding Maxwell Lord and Brother Eye.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Man of Steel</h2>
+      <p><img src="https://ca-times.brightspotcdn.com/dims4/default/15624a6/2147483647/strip/true/crop/599x399+1+0/resize/1680x1120!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fad%2F53%2Fdfcd859054be5a5c5c20a8ea24da%2Fla-et-man-of-steel-photos-20130612-005"alt="WONDER WOMEN 1984" width="400px"height="200px";><br>Clark Kent coming out to the world as Superman in Zack Snyder's Man of Steel kicked off the modern age of superheroes in Worlds of DC's version of Earth (everyone having forgotten Wonder Woman beating up all those German soldiers, apparently).
+
+        Watch Man of Steel on Now TV
+        
+        The film charts Kal-El's first adventure, fighting General Zod and his invading Kryptonian forces, and ends with Clark taking up his iconic role as a reporter at Metropolis' Daily Planet.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Batman v Superman: Dawn of Justice
+      </h2>
+      <p><img src="https://i.imgur.com/OMfzVVG.jpg"alt="WONDER WOMEN 1984" width="400px"height="200px";><br>Zack Snyder's Man of Steel follow-up depicts the first meeting between Ben Affleck's middle-aged Batman and Henry Cavill's Superman, with a bit of Lex Luthor and Doomsday thrown in for good measure.
+
+        Watch Batman v Superman: Dawn of Justice on Now TV
+        
+        Bruce Wayne and Clark begin as enemies, but manage to make it up just in time for Superman to be 'killed' by Doomsday. Diana also resumes her public role as Wonder Woman after Batman catches her attempting to acquire a photograph from World War I in which she appears, and future Justice Leaguers Aquaman, Cyborg and The Flash also have brief cameos.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2> Justice League</h2>
+      <p><img src="https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/justice_league_uber2b_032417_4320x1080.jpg"alt="WONDER WOMEN 1984" width="400px"height="200px";><br> Batman, Wonder Woman, Aquaman, Cyborg and The Flash unite for the first time to battle Steppenwolf, an alien warlord attempting to transform the Earth and destroy all life via a tour of Atlantis, Themyscira and Metropolis to acquire the three 'Mother Boxes'. Superman is resurrected and joins them for the final showdown.
+
+        Watch Justice League on Amazon Prime
+        
+        The film includes plenty of setup for future movies: Aquaman meets Mera for the first time, Barry Allen (aka Flash) gets a job in Central City's police department, Lex Luthor and the mercenary Deathstroke decide to set up their own evil league, and the presence of the villain Darkseid is hinted at..</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Aquaman</h2>
+      <p><img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-184325,resizemode-1,msid-67123287/aquaman-review-will-thrill-you-to-the-core-with-an-exhilarating-climax.jpg"alt="WONDER WOMEN 1984" width="400px"height="200px";><br>While James Wan's Aquaman is kept largely separate from the other goings-on in the Worlds of DC, it does follow up on Arthur Curry's first meeting with Mera.
+
+        Watch Aquaman on Now TV
+        
+        The movie enlists Aquaman in a quest to prevent a war between the underwater armies of Atlantis and the sea-polluting surface dwellers. If you want to know how it ends, well, star Jason Momoa spoiled it ages before the film came out.</p>
+        
+    </div>
+  </div>
+</div>
+<h4 style="color: white;"><a href="#1">BACK TO TOP</a></h4>
+</body>
+</html>

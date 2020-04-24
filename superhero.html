@@ -1,0 +1,177 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title title='DC COMICS TIMELINE'>DC COMICS TIMELINE</title>
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/DCUniverse.svg/1056px-DCUniverse.svg.png" type="image/png">
+        <meta name="author" content="SIVA S A"/>
+        <meta name="description" content="The various timelines in various earths"/>
+        <meta name="viewport" content="width=device-width,initial_scale=1.0,user-scalable=no"/>
+        <style>
+html{
+background-color: black;
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ 
+header{
+                font-size: 55px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-style: normal;
+                text-align: center;
+                text-shadow: blue;
+                color: rgb(65, 141, 255); 
+                padding: 10px;
+                background-color: rgb(0, 0, 0);
+               }
+.dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(65, 141, 255)  ;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+top:20px;
+right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(31, 25, 25);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.966);
+  z-index: 1;
+  right:5px;
+}
+
+.dropdown-content a {
+  color: rgb(31, 111, 231);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(83, 80, 80);
+}
+            
+            .logo{
+                position: fixed;
+            top: 5px;
+            left: 5px;
+            }</style> 
+<script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /*loop through a collection of all HTML elements:*/
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("w3-include-html");
+      if (file) {
+        /*make an HTTP request using the attribute value as the file name:*/
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /*remove the attribute, and call this function once more:*/
+            elmnt.removeAttribute("w3-include-html");
+            includeHTML();
+          }
+        }      
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /*exit the function:*/
+        return;
+      }
+    }
+  };
+  </script>
+     
+    </head>
+    
+    <header id="1"><strong>DC COMICS</strong><a href="dccomics.html"><img class="logo"title="DC COMICS HOME" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/DC_Comics_logo.png/600px-DC_Comics_logo.png"alt="DC COMICS" style="width:90px;height:90px;"></a></header><br>
+    <body >
+      <h3 style="color: white;text-align: center;font-size: 50px;">GALLERY</h3><div class="dropdown">
+        <button class="dropbtn" style="font-size: 35px;"><b>MENU</b></button>
+        <div class="dropdown-content">
+        <a href="https://www.dccomics.com/" style="text-align: center;">OFFICIAL DC COMICS SITE</a>
+        <a href="https://www.dccomics.com/contact"style="text-align: center;">DC COMICS CONTACT</a>
+        <a href="index.html"style="text-align: center;">OWNER</a>
+        <a href="dccomics.html"style="text-align: center;">HOME</a>
+        </div>
+      </div>
+      
+    <div w3-include-html="dccomics.html"></div> 
+    
+    <script>
+    includeHTML();
+    </script>
+    
+    <div class="container">
+        <div class="box"><a href="https://images.wallpapersden.com/image/wxl-justice-league_58775.jpg">
+          <img src="https://i.dawn.com/large/2017/07/59744db7389d1.png"></a>
+          <span style="color: blanchedalmond;">JUSTICE LEAGUE</span>
+        </div>
+        <div class="box"><a href="https://news.otakukart.com/wp-content/uploads/2020/01/Titans-Season-3.jpeg">
+          <img src="https://news.otakukart.com/wp-content/uploads/2020/01/Titans-Season-3.jpeg"></a>
+          <span style="color: blanchedalmond;">TITANS</span>
+        </div>
+        <div class="box"><a href="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/Arroverse-Heores-in-CW.jpg">
+          <img src="https://img1.looper.com/img/gallery/5-best-and-5-worst-things-about-cws-arrowverse/intro-1537532280.jpg"></a>
+          <span style="color: blanchedalmond;">ARROWVERSE</span>
+        </div>
+        <div class="box"><A href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHM14FGkA0mfC9tYgolhikjjf_rKVn-44cJZdmQl-oNYAmkB3N&usqp=CAU">
+          <img src="https://www.nme.com/wp-content/uploads/2018/04/2015SuicideSquad_Film_140715-1-696x442.jpg"></A>
+          <span style="color: blanchedalmond;">SUCIDE SQUAD</span>
+        </div>
+      </div>  </html>
